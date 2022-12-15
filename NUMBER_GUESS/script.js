@@ -8,7 +8,7 @@ const randomNumber = randomNumberGenerator();
 if (Number(inputValue) === randomNumber) {
     document.getElementById("result").innerHTML = "Gle čuda, pogodio si!";}
     else {
-        document.getElementById("result").innerHTML = "Znala sam da češ pogriješiti! . Pravi broj je: " + randomNumber;
+        document.getElementById("result").innerHTML = "Znala sam da ćeš pogriješiti! Pravi broj je: " + randomNumber;
     }
 
   
